@@ -1,8 +1,9 @@
 .bg {
   position: relative;
-
-  width: 100%;
-  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1260px;
+  height: 100%;
 }
 .bg::before {
   content: '';
@@ -20,7 +21,7 @@
   position: relative;
   top: 0;
   max-width: 1200px;
-  height: 100vh;
+  height: 100%;
   /* display: flex; */
   margin-left: auto;
   margin-right: auto;
@@ -67,11 +68,12 @@
 }
 .flex {
   display: flex;
+  justify-content: space-between;
 }
 
 /* .left .right{ */
 .left {
-  width: calc(50%);
+  width: calc(40%);
 }
 .right {
   /* .left { */
@@ -79,7 +81,7 @@
 }
 
 .left__items {
-  padding: 0px 25px;
+  /* padding: 0px 25px; */
 }
 
 .title {
@@ -110,8 +112,7 @@
 .right__li {
   position: relative;
 }
-.git_icon 
-{
+.git_icon {
   position: absolute;
   content: '';
   background: url(25231.png);
