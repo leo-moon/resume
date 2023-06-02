@@ -9,8 +9,7 @@
   content: '';
   background: url(blackWhite.jpg);
   background-size: cover;
-  /* background-size:lvh ; */
-  
+
   position: absolute;
   top: 0px;
   right: 0px;
@@ -24,27 +23,21 @@
   top: 0;
   max-width: 1200px;
   height: 100%;
-  /* display: flex; */
   margin-left: auto;
   margin-right: auto;
-  /* opacity: 1; */
   padding: 15px 25px;
 }
 
 .top {
   display: flex;
-  padding: 0 calc(13.5%);
+  padding: 0 calc(8%);
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .own_photo {
-  /* display: flex; */
   content: '';
-
   background: url(123.jpg);
-
-  /* fill: aqua; */
-
   width: 160px;
   height: 200px;
   background-size: cover;
@@ -54,32 +47,32 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-right: 135px;
 }
 
-.name, .profession {
+.name,
+.profession {
   margin: 0;
   padding: 0;
   padding: 15px 5px;
 }
 
 .name {
-  font-size: 36px;
+  font-size: 40px;
 }
 .profession {
-  font-size: 28px;
+  font-size: 32px;
 }
 .flex {
   display: flex;
   justify-content: space-between;
 }
 
-/* .left .right{ */
 .left {
-  width: calc(40%);
+  width: calc(30%);
 }
 .right {
-  /* .left { */
-  width: calc(57%);
+  width: calc(68%);
 }
 
 .left__items {
@@ -93,18 +86,24 @@
   border-radius: 25% 25% 0 0;
   padding: 15px 0;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .left__ul {
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 90px;
-  /* align-items: center; */
-  /* justify-items: center; */
+  padding: 0 0 5px 55px;
 }
-li, p{
+ul,
+li,
+p {
+  margin: 5px;
   font-size: 28px;
+  color: rgb(17, 17, 17);
+}
+
+a {
+  color: rgb(17, 17, 17);
 }
 
 .styles_none {
@@ -113,14 +112,19 @@ li, p{
 
 .right {
   background-color: #fff;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .summary_text,
-.right__li{
-margin: 0 20px;
+.right__li {
+  margin: 0 20px;
 }
 .right__li {
   position: relative;
+}
+.project_link {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .git_icon {
   position: absolute;
